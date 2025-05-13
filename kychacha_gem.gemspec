@@ -3,6 +3,10 @@
 require_relative "lib/kychacha_gem/version"
 
 Gem::Specification.new do |spec|
+  # Rust compilation
+  spec.extensions = ['ext/extconf.rb']
+  spec.files += Dir.glob('./target/release/lib*.{so,dylib,dll}')
+
   spec.name = "kychacha_gem"
   spec.version = KychachaGem::VERSION
   spec.authors = ["nichokas"]
