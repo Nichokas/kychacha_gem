@@ -1,6 +1,5 @@
 use std::ffi::{c_char, CStr, CString};
 use kychacha_crypto::{bytes_to_public_key, bytes_to_secret_key, generate_keypair as kgk, public_key_to_bytes, secret_key_to_bytes, encrypt as kencrypt, decrypt as kdecript, MlKem768PublicKey, MlKem768PrivateKey};
-use libc::CS;
 use log::error;
 
 #[unsafe(no_mangle)]
