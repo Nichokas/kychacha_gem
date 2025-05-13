@@ -1,0 +1,56 @@
+PATH
+  remote: .
+  specs:
+    kychacha_gem (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    date (3.4.1)
+    diff-lcs (1.6.1)
+    ffi (1.17.2)
+    ffi (1.17.2-x86_64-linux-gnu)
+    io-console (0.8.0)
+    irb (1.15.2)
+      pp (>= 0.6.0)
+      rdoc (>= 4.0.0)
+      reline (>= 0.4.2)
+    pp (0.6.2)
+      prettyprint
+    prettyprint (0.2.0)
+    psych (5.2.4)
+      date
+      stringio
+    rake (13.2.1)
+    rdoc (6.13.1)
+      psych (>= 4.0.0)
+    reline (0.6.1)
+      io-console (~> 0.5)
+    rspec (3.13.0)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.3)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.4)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.4)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.3)
+    stringio (3.1.7)
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  ffi (~> 1.17)
+  irb
+  kychacha_gem!
+  rake (~> 13.0)
+  rspec (~> 3.0)
+
+BUNDLED WITH
+   2.6.8
