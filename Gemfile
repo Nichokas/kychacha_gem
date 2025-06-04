@@ -8,6 +8,6 @@ gemspec
 gem "irb"
 gem "rake", "~> 13.3"
 
-gem "rspec", "~> 3.0"
+gem "rspec", "~> 3.13"
 
 gem "ffi", "~> 1.17"
